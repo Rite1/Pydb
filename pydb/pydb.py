@@ -16,9 +16,16 @@ class Pydb():
 
     def insert(self, insert_command):
         connection.execute(insert_command)
+        print("Inserted")
 
     def select(self, select_command):
         connection.execute(select_command)
+        print("selected")
 
     def update(self, update_command):
         connection.execute(update_command)
+        print("Updated")
+
+    def delete(self, delete_command):
+        connection.execute(delete_command)
+        print("Deleted")
