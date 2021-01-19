@@ -29,5 +29,4 @@ object.insert(insert_command)
 #### [join](https://discord.gg/YpjyrMFNm7) the discord server
 
 ### Future updates?
-- we will add pre defined models
-- we will provide docs
+- we will provide docs (currently working on docs)
