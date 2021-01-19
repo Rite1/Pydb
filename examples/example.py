@@ -1,6 +1,8 @@
-from pydb import pydb
+from pydb import pydb, models
+from pydb.models import user_model
 
 # SQL Tabel syntax
+# you can either define your own models or use predidined models, like user_model
 user_tabel_syntax = """
 CREATE TABLE Users
          (ID INT PRIMARY KEY     NOT NULL,
@@ -9,7 +11,7 @@ CREATE TABLE Users
 """
 
 # Pydb class object
-ExampleModel = pydb.Pydb("example.db", user_tabel_syntax)
+ExampleModel = pydb.Pydb("example.db", user_model)
 
 # commands
 insert_command = """
