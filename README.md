@@ -27,6 +27,3 @@ object.insert(insert_command)
 
 ### Want to contribute?
 #### [join](https://discord.gg/YpjyrMFNm7) the discord server
-
-### Future updates?
-- we will provide docs (currently working on docs)
